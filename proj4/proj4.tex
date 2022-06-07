@@ -1,0 +1,56 @@
+\documentclass[a4paper, 11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[czech]{babel}
+\usepackage{times}
+\usepackage[left=1.5cm, text={18cm, 25cm}, top=3cm]{geometry}
+\newcommand{\uvcs}[1]{\quotedblbase #1\textquotedblleft}
+
+\begin{document}
+\begin{titlepage}
+    \begin{center}
+        {\Huge\textsc{Vysoké učení technické v~Brně}}\\[0.4em]
+        {\huge\textsc{Fakulta informačních technologií}}
+        
+    
+    \vspace{\stretch{0.4}}
+    
+    {\LARGE 
+        Typografie a publikování\,--\,4. projekt}\\[0.3em]
+        {\Huge Citácie}
+    
+    \vspace{\stretch{0.5}}
+    \end{center}
+    
+    {\Large \today \hfill Igor Hanus (xhanus19)} 
+    
+\end{titlepage}
+
+\section{\LaTeX}
+
+\subsection{Čo je \LaTeX ?}
+\LaTeX je systém na tvorenie dokumentácie. Primárne je využívaný akademickými inštitúciami, ale možno ho použit aj na vydávanie odborných diel, kníh alebo aj bežných dokumentov alebo prezentácií, viď \cite{Springer}.
+Možnosti sú nekonečné, nakoľko \LaTeX je slobodný softvér, jeho funkčnosť sa stále rozvíja.  
+
+\subsection{Výhody oproti iným systémom}
+Medzi výhody oproti iným dostupným systémom patria možnosť
+vytvárania vlastných makier, udržiavanie hierarchie pri písaní dokumentov, dostupnosť mnohýh balíčkov s~rôznymi uplatneniami, atď. Jedným z~veľkých rozdielov je tzv. \texttt{math mode}, s~ktorým je používateľ schopný jednoducho písať matematické rovnice a taktiež aj zložité vzorce. Viac o~\texttt{math mode} sa môžete dočítať v~\cite{SpringerMath}.
+
+\subsection{Využitie pre študentov}
+Ak nieste fanúšikom klasických GUI editorov, ako napríklad MS Word pre tvorbu školských projektov, určite stojí za to vyskušať \LaTeX. Všetky informácie ohľadom tvorenia dokumentov si užívateľ dokáže dohľadať na internete, vrátene dostupnosti už pripravených šablón rôznych formulárov, dokumentov. Užitočné balíčky pre jednotlivé školské predmety môžete nájsť v~\cite{unizaLatex}. Ak sa jedná o~problematiku vkladania a úpravy obrázkov, odporúčam článok \cite{vutImages}. Samozrejme ak študujete v~Česku, nemôžte zabudnúť na českú znakovú sadu, viď \cite{czechStyle}. 
+	
+\subsection{\LaTeX\, v~praxi}	
+Firmy denne produkujú veľké množstvo dokumentov. Výhodou v~\LaTeX u je primárne možnosť automatizácie (zapisovanie výstupov z~programov, generovanie PDF alebo tabuliek, viď \cite{latexTables}), a keďže sa jedná o~slobodný softvér, je ho možné upraviť podľa potrieb danej firmy alebo vytvorením vlastných balíčkov. Touto témou sa zaoberá článok \cite{practicalLatex}.
+
+\subsection{Editory}
+Pre prácu s~\LaTeX om je potrebný tzv. \emph{Editor}. Jedná sa o~program, ktorý umožnuje prácu v~\LaTeX e.
+Editory je možné stiahnuť (napr. TeXstudio) alebo sa dajú používať priamo on-line \cite{onlineLatex}. Jeden z~napoužívanejších online editorov je OverLeaf, ktorý vznikol spojením OverLeaf-u a ShareLaTeX-u v~roku 2017.
+
+\subsection{Záver}
+V~predošlej časti článku sme sa zoznámili so zakladnými informáciami k~\LaTeX u. Okrem základných funkcií dokumentačných systémov je v~\LaTeX e možné vytvárať aj jednoduché animácie, viď \cite{animations} alebo interaktívne tlačidlá \cite{buttons}.
+
+\newpage
+\bibliographystyle{czechiso}
+\renewcommand{\refname}{Literatúra}
+\bibliography{proj4}
+
+\end{document}
